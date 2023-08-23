@@ -23,6 +23,13 @@ Directly interacting with smart contract functions that exists on L2(opBNB) from
 
 With that said, there is a way for developers to allow arbitrary message sending by writing their own contracts to build their required business logic. More details here: https://community.optimism.io/docs/developers/bridge/messaging/#communication-basics-between-layers
 
+### With the given smart contract address, how do you verify it? 
+You can use the following GET Request:
+Replacing the contract address and your [MegaNode API Key](https://nodereal.io/meganode). For opBNB testnet, use https://open-platform.nodereal.io/{{yourAPIkey}}/op-bnb-testnet/contract/?action=getsourcecode&address={{contract address}}. For opBNB mainnet, use https://open-platform.nodereal.io/{{yourAPIkey}}/op-bnb-mainnet/contract/?action=getsourcecode&address={{contract address}}.
+
 :::info Don't see your question?
 We're working on expanding this FAQ with more content, including questions from the community and partners, so please watch this space! However, if you don't see your question, please ask in the [BNB forum](https://forum.bnbchain.org/), so you can get the answers you need and make us aware of new FAQ items.
 :::
+
+
+
